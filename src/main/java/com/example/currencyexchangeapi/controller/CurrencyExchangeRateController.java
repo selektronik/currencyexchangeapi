@@ -1,7 +1,6 @@
 package com.example.currencyexchangeapi.controller;
 
 
-
 import com.example.currencyexchangeapi.dto.request.CurrencyConversionRequest;
 import com.example.currencyexchangeapi.dto.request.CurrencyExchangeRateRequest;
 import com.example.currencyexchangeapi.dto.request.SearchCurrencyConversionRequest;
@@ -9,15 +8,12 @@ import com.example.currencyexchangeapi.dto.response.CurrencyConversionResponse;
 import com.example.currencyexchangeapi.dto.response.CurrencyExchangeRateResponse;
 import com.example.currencyexchangeapi.dto.response.SearchCurrencyConversionResponse;
 import com.example.currencyexchangeapi.dto.utilities.result.DataResult;
-import com.example.currencyexchangeapi.dto.utilities.result.SuccessDataResult;
 import com.example.currencyexchangeapi.service.CurrencyConversionService;
 import com.example.currencyexchangeapi.service.CurrencyExchangeRateService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
-import java.util.Date;
 import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -35,7 +31,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Validated
 public class CurrencyExchangeRateController {
 
-    private static final String SOURCE_CURRENCY_WAS_CONVERTED_TO_TARGET_CURRENCY_SUCCESSFULLY = "fdsfdsfdsf";
     @Autowired
     CurrencyExchangeRateService currencyExchangeRateService;
 
