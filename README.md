@@ -49,9 +49,7 @@ There are four Rest Api service in this applicaiton. These are :
 			   size : 3
 			   transactionDate : 2022-01-19
 			   transactionId : 1
-   
-**4. Retrieve All Available Currency Symbols Api** : This api returns all available curency list which are provided by Exchangeratesapi.io.
-     No input is required for this API. 
+  
 	 
 
 ## About Swagger :	 
@@ -64,7 +62,7 @@ There are four Rest Api service in this applicaiton. These are :
   *  Retrieve Currency Exchange Rate Api : https://exchangecurrency-api-deploy.herokuapp.com/api/v1/retrieveExchangeRate
   *  Convert Currency API :   https://exchangecurrency-api-deploy.herokuapp.com/api/v1/convertCurrency
   *  Search Currency Conversion List :  https://exchangecurrency-api-deploy.herokuapp.com/api/v1/findCurrencyConversionList
-  *  Retrieve All Available Currency Symbols Api : https://exchangecurrency-api-deploy.herokuapp.com/api/v1/retrieveAllAvailableCurrencySymbols
+
 
 
 
